@@ -1,0 +1,32 @@
+Primer paso para iniciar el proyecto 
+sudo npm install -g gulp gulp-cli
+npm init
+sudo npm install --save --dev -gulp gulp-autoprefixer gulp-sass
+
+Compilar Sass con gulp
+
+en gulpfile.js
+
+hay que importar dentro de este file gulp, gulp-sass y gulp-autoprefixer
+
+Luego declarar las funciones
+Lo primero es el nombre de la tarea ponien gulp css se crea la carpeta css
+
+Por ultimo declarar las tareas 
+
+
+Tener un watch para relfejar mis cambios de estilos 
+Con la funcion watch controlamos los cmabios de mi scss y html
+
+Luego se declaran las variables
+
+Paso siguiente los mixins
+
+Aclaracion el boz-sizing con sus box model con su border box es ideal ya que  hace que se evite un paddin o un border cambie el tamaño de un elemnto
+
+background-color: unset; Esta propiedad lo que hace es ayudarme la transición de colores o imagenes al 
+agrandar o achicar una pantalla
+
++label pasa el selector al inmmediatamente elemento posterior al de abajo
+
+Para darle a un boton de select algun tipo de estilo lo primero que hay que hacer es darle la propiedad appearence: none;
